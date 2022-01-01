@@ -12,7 +12,7 @@ useEffect(()=>{
   const fetchArticles = async ()=>{
   try{
      
-        const res = await fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${term}&api-key=${process.env.REACT_APP_ARTICLES_API_KEY}`)
+        const res = await fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${term}&api-key=nQasOvtqQ0GNfXQafWM9nYcov8HmK6GU`)
 
         const articles = await res.json();
         console.log(articles);
